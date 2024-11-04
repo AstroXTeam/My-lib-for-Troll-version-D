@@ -1,7 +1,7 @@
 # Na Ui Library v2
 ## Library loadstring
 ```lua
-local Library = loadstring(game:HttpGet(""))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/AstroXTeam/My-lib-for-Troll-version-D/refs/heads/main/Source.lua"))()
 ```
 
 
