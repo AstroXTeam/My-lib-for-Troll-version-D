@@ -20,8 +20,12 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ltseverydayyou/Namele
 
 ## Notification Dc
 ```lua
-			DoNotif("Your exploit does not support read/write file",5)
-end
+			Notify({
+Description = "Welcome";
+Title = "Na Library";
+Duration = 7;
+
+});
 ```
 
 ## Tab
