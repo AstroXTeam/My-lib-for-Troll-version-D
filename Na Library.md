@@ -15,17 +15,13 @@ local Win = Ui:Window(' Title ')
 ## Notification
 Create a Notification
 ```lua
-local NotifyLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))()
-local Notify = NotifyLibrary.Notify
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ltseverydayyou/Nameless-Admin/main/NamelessAdminNotifications.lua"))()
 ```
 
 ## Notification Dc
 ```lua
-			NotifyLibrary.Notify({
-				Title = "Hi ",
-				Description = "Welcome",
-				Duration = 1
-			})
+			DoNotif("Your exploit does not support read/write file",5)
+end
 ```
 
 ## Tab
